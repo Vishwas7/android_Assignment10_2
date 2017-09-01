@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#F9A825"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bareilly Ki Barfi"
+        android:textSize="26dp"
+        android:textColor="#33691E"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"  />
+
+    <TextView
+        android:id="@+id/lay3"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:textColor="#01579B"/>
+
+</LinearLayout>

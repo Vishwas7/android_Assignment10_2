@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="178dp"
+        android:layout_height="40dp"
+        android:gravity="left|center_vertical"
+        android:text="Movie\nReviews"
+        android:textAlignment="center"
+        android:textColor="#C51162"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:layout_weight="0.10" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="left|center_vertical"
+        android:text="Baadshaho Review"
+        android:textColor="#E32636"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="left|center_vertical"
+        android:text="Shubh Mangal Saavdhan"
+        android:textColor="#0000FF"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="left|center_vertical"
+        android:text="Bareilly Ki Barfi"
+        android:textColor="#FF007F"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="left|center_vertical"
+        android:text="Jab Harry Met Sejal"
+        android:textColor="#3E2723"
+        android:textStyle="bold"/>
+</LinearLayout>
